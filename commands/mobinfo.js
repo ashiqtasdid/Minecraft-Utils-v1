@@ -58,12 +58,7 @@ module.exports = {
         );
 
       interaction.editReply({
-        files: [
-            {
-              attachment: "https://i.ibb.co/BsGFbSD/rsz-1pngwingcom-1.png",
-              name: "favicon.png",
-            },
-          ],
+    
         embeds: [exampleEmbed],
         ephemeral: true,
       });
