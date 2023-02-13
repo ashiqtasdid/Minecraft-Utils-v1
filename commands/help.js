@@ -17,6 +17,7 @@ module.exports = {
         { name: 'Commands', value: "https://mcutils.ashiqthedev.com/commands" },
         { name: 'Parent Company', value: "Ashiq The Dev Inc." },
         { name: 'Twitter', value: "https://twitter.com/mc_utilities" },
+        { name: 'Discord Server', value: "https://discord.gg/kzSqqyM4Fg" },
        
       )
 
