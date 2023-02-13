@@ -6,11 +6,11 @@ const token = process.env.TOKEN
 const dotenv = require('dotenv');
 
 
-const rest = new REST({ version: '10' }).setToken('ODEwMTkyOTM2NDcyOTM2NDgw.G4rpB3.bcuHO0LVEYXLelT6CEEvnC6FGAAHGB2TLRAiZc');
+const rest = new REST({ version: '10' }).setToken(token);
 
 // ...
 
 // for global commands
-rest.put(Routes.applicationCommands('810192936472936480'), { body: [] })
+rest.put(Routes.applicationCommands(clientId), { body: [] })
 	.then(() => console.log('Successfully deleted all application commands.'))
 	.catch(console.error);
